@@ -1,0 +1,32 @@
+{
+  "n_components": 2,
+  "weights": [0.8, 0.2],
+  "means": [
+    [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+    [0.2, 0.1, 0.0, 0.0, 0.2, 0.1, 0.05, 0.05, 0.0, 0.1]
+  ],
+  "covariances": [
+    [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+    [1.2, 1.2, 0.8, 0.8, 1.2, 1.0, 0.9, 0.9, 0.8, 1.1]
+  ],
+  "scaler_center": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "scaler_scale":  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+  "calibrator": {
+    "threshold_p95": 2.0,
+    "threshold_p99": 4.0
+  },
+  "feature_config": {
+    "dwellSec":        { "min": 0.01,  "max": 2.0,    "transform": "log",   "clip": true },
+    "flightSec":       { "min": 0.01,  "max": 3.0,    "transform": "log",   "clip": true },
+    "pressureMean":    { "min": 0.0,   "max": 1.0,    "transform": "none",  "clip": true },
+    "sizeMean":        { "min": 0.0,   "max": 1.0,    "transform": "none",  "clip": true },
+    "speed":           { "min": 0.1,   "max": 100.0,  "transform": "log",   "clip": true },
+    "curvature":       { "min": 0.0,   "max": 10.0,   "transform": "sqrt",  "clip": true },
+    "pressureVar":     { "min": 0.0,   "max": 0.5,    "transform": "sqrt",  "clip": true },
+    "sizeVar":         { "min": 0.0,   "max": 0.5,    "transform": "sqrt",  "clip": true },
+    "rhythmVariance":  { "min": 0.0,   "max": 2.0,    "transform": "none",  "clip": true },
+    "distance":        { "min": 0.0,   "max": 1000.0, "transform": "log1p", "clip": true }
+  }
+}
+
+

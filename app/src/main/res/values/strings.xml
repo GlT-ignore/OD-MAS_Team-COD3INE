@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ODMAS</string>
+    <string name="accessibility_service_description">OD-MAS uses accessibility services to monitor touch patterns for behavioral security analysis. This helps detect unusual behavior patterns that may indicate unauthorized access.</string>
+    <string name="accessibility_service_summary">Enable to allow OD-MAS to detect system-wide touches and typing timings for on-device security.</string>
+</resources>
