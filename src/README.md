@@ -136,7 +136,7 @@ The project uses Chaquopy to run Python ML algorithms on Android:
 
 This source code demonstrates:
 
-### Technical Implementation (25%)
+### Technical Implementation
 - Innovative multi-agent behavioral biometrics
 - Advanced Python-Android ML integration
 - Privacy-preserving continuous authentication
