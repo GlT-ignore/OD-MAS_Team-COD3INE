@@ -16,7 +16,7 @@ Unlike traditional authentication systems that rely on static credentials, OD-MA
 ### Project Artefacts
 
 * **Technical Documentation** - [docs/](./docs/) _(All technical details written in markdown files inside the docs folder)_
-* **Source Code** - [app/src/](./app/src/) _(Complete Android application source code with multi-agent ML architecture)_
+* **Source Code** - [src/](./src/) _(Complete Android application source code with multi-agent ML architecture)_
 * **Models Used** - 
   - Custom Isolation Forest implementation (simplified for Android)
   - Custom One-Class SVM implementation (simplified for Android)  
@@ -53,19 +53,19 @@ Unlike traditional authentication systems that rely on static credentials, OD-MA
 
 ## Innovation Impact
 
-### Technical Innovation (25%)
+### Technical Innovation
 - First implementation of multi-agent behavioral biometrics on Android
 - Novel fusion architecture combining statistical and deep learning approaches
 - Revolutionary privacy-preserving continuous authentication
 - Advanced Chaquopy Python-Android ML integration
 
-### Scalability & Ethics (10%)
+### Scalability & Ethics
 - **Scalability**: Edge computing model scales linearly with device adoption
 - **Ethics**: Privacy-by-design architecture exceeds all regulations
 - **Inclusivity**: Works across all user demographics and abilities
 - **Transparency**: Open-source algorithms for community audit
 
-### User Experience (15%)
+### User Experience
 - **Invisible Security**: No workflow disruption
 - **Seamless Integration**: Works with existing Android security
 - **Adaptive Interface**: Learns user preferences
