@@ -1377,7 +1377,7 @@ Fallback Options:
 
 **In-App Help System:**
 ```
-📚 Help & Support Menu:
+Help & Support Menu:
 ├── Getting Started Guide
 ├── Feature Explanations
 ├── Troubleshooting Wizard
@@ -1411,7 +1411,7 @@ Fallback Options:
 
 **Diagnostic Tools:**
 ```
-🔧 Built-in Diagnostics:
+Built-in Diagnostics:
 ├── System Health Check
 │   ├── Accessibility service status
 │   ├── Permission verification
