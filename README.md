@@ -2,7 +2,7 @@
 
 * **Problem Statement** - Privacy-Preserving On-Device Intelligence for Behavioral Biometrics
 * **Team name** - Team COD3INE  
-* **Team members (Names)** -  Varsha EC, Chanikya Gajjarapu, Vikranth EC, Nithya Reddy Lingala
+* **Team members (Names)** -  Chanikya Gajjarapu, Vikranth EC, Nithya Reddy Lingala, Varsha EC
 * **Demo Video Link** - [CLICK HERE](https://youtu.be/ifKN0TCJBq4?si=2DAOxrbOUtvTtw6o)    https://youtu.be/ifKN0TCJBq4?si=2DAOxrbOUtvTtw6o
 
 ## Project Overview
